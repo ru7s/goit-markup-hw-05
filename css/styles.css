@@ -580,4 +580,23 @@ color: var(--dark-blu);
 .footer-social-link:hover,.footer-social-link:focus{
   background-color: #31d0aa;
 }
+/*--Modal--*/
+.backdrop .is-hidden{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width:100%;
+  z-index: 100;
+ background-color: rgba(46,
+  47,
+  66,
+  0.4);
+  transition: opacity var(--transition),visibility var(--transition);
+}
 
