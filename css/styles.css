@@ -312,6 +312,7 @@ font-style: normal;
   align-items: center;
   justify-content: center;
   background-color: var(--blu-color);
+  transition: background-color var(--transition);
 
 }
 .social-list-link:hover{
