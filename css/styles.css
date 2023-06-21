@@ -89,7 +89,6 @@ background-color:var(--white-color);}
 
 .logo-color{color:var(--background-color);  
 }
-
 .list-a{
 display: block;
 font-weight: 500;
@@ -182,8 +181,8 @@ display: flex;
 .address{
 margin-left: auto;
 font-style: normal;
-
  }
+
 /*section1*/
 
 .section-one{
@@ -231,8 +230,6 @@ font-style: normal;
   .section-but:hover,.section-but:focus{
     background-color:#404BBF ;
   }
-
-  
 
    /*section-2*/
    .values-icon-container{
@@ -379,7 +376,6 @@ fill: var(--light-white);
   padding-bottom: 120px;
   padding: 96px 0 120px 0
 }
-
 
 .website{
   display: flex;
