@@ -115,6 +115,7 @@ border-color: var(--hover-background);
 transition: transform var(--transition),color var(--transition);
 width: 100%;
 transform: scaleX(0);
+transform-origin: right;
 }
 
 
@@ -135,7 +136,9 @@ color: var(--grey);
 }
 
 .list-a:hover::after,
-.list-a:focus::after{
+.list-a:focus::after,
+.list-a.current::after
+{
   transform:scaleX(1);
   transform-origin: left;
 }
