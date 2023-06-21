@@ -114,6 +114,7 @@ transition: color var(--transition);
 border-color: var(--hover-background);
 transition: transform var(--transition),color var(--transition);
 width: 100%;
+transform: scaleX(0);
 }
 
 .list-b{
