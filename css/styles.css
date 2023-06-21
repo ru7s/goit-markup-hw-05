@@ -80,7 +80,7 @@ background-color:var(--white-color);}
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  transition:color var(--transition);
+  color: var(--dark-blu);
   text-decoration: none;
   margin-right: 76px;
 }
