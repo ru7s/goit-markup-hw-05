@@ -232,7 +232,7 @@ font-style: normal;
   }
 
   .section-but:hover,.section-but:focus{
-    background-color:var(--hover-background);
+    background-color:#404BBF ;
   }
 
   
