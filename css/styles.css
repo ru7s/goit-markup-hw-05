@@ -633,7 +633,14 @@ color: var(--dark-blu);
 .modal-close-button:hover,
 .modal-close-button:focus
 {
-  background-color: #404bbf;
+  background-color:var(--hover-background);
   border: none;
+}
+.modal-close-icon{
+  transition: fill var(--transition);
+}
+.modal-close-button:hover,.modal-close-icon
+.modal-close-button:focus,.modal-close-icon{
+  fill: var(--white-color);
 }
 
