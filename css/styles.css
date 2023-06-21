@@ -630,4 +630,10 @@ color: var(--dark-blu);
   cursor: pointer;
   transition: background-color var(--transition),border var(--transition);
 }
+.modal-close-button:hover,
+.modal-close-button:focus
+{
+  background-color: #404bbf;
+  border: none;
+}
 
