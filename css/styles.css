@@ -99,6 +99,7 @@ letter-spacing: 0.02em;
 color: var(--background-color);
 padding-top: 24px;
 padding-bottom: 24px;
+color: var(--dark-blu);
 position: relative;
 transition: color var(--transition);
 }
