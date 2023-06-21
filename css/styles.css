@@ -128,8 +128,13 @@ color: var(--grey);
 
 .list-a:hover,
 .list-a:focus,
+.list-a.modal
+{
+  color: var(--dark-blu); 
+}
+
 .list-b:hover,
-.list-b:focus {
+.list-b:focus{
   color: var(--dark-blu);
 }
 
