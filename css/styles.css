@@ -581,7 +581,8 @@ color: var(--dark-blu);
   background-color: #31d0aa;
 }
 /*--Modal--*/
-.backdrop .is-hidden{
+
+.backdrop.is-hidden{
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
