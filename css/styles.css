@@ -459,6 +459,7 @@ fill: var(--light-white);
     align-items: center;
     justify-content: center;
     color: var(--dark-grey);
+    transition: color var(--transition),border-color var(--transition);
    }
 
    .costumers-link:hover{
@@ -574,6 +575,7 @@ color: var(--dark-blu);
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color var(--transition);
 }
 .footer-social-link:hover,.footer-social-link:focus{
   background-color: #31d0aa;
