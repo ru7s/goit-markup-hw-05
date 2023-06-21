@@ -80,7 +80,7 @@ background-color:var(--white-color);}
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--dark-blu);
+  color: var(--blu-color);
   text-decoration: none;
   margin-right: 76px;
 }
@@ -89,6 +89,7 @@ background-color:var(--white-color);}
 
 .logo-color{color:var(--background-color);  
 }
+
 .list-a{
 display: block;
 font-weight: 500;
@@ -101,6 +102,7 @@ position: relative;
 transition: color var(--transition);
 }
 
+
 .list-a::after{
   content: '';
   position: absolute;
@@ -111,6 +113,7 @@ transition: color var(--transition);
   border-radius: 2px;
 border-color: var(--hover-background);
 transition: transform var(--transition),color var(--transition);
+width: 100%;
 }
 
 .list-b{
