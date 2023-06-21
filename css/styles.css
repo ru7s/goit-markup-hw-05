@@ -132,6 +132,13 @@ color: var(--grey);
   color: var(--dark-blu); 
 }
 
+.list-a:hover::after,
+.link-a:focus::after,
+.link-a.list-a.modal::after{
+  transform: scale(1);
+  transform-origin: left;
+}
+
 .list-b:hover,
 .list-b:focus{
   color: var(--dark-blu);
