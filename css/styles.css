@@ -614,7 +614,7 @@ color: var(--dark-blu);
     border-radius: 4px;
     transition: transform var(--transition);
 }
-.modal-class-button{
+.modal-close-button{
   position: absolute;
   top: 24px;
   right: 24px;
