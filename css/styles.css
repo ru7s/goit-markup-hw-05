@@ -91,14 +91,13 @@ background-color:var(--white-color);}
 }
 
 .list-a{
-  display: block;
+display: block;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--background-color);
 padding: 24px 0;
-color: var(--dark-blu);
 position: relative;
 transition: color var(--transition);
 }
