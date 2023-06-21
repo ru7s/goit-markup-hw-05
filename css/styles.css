@@ -395,11 +395,31 @@ fill: var(--light-white);
   gap: 24px;
   margin-bottom: 72px
 }
-.desing-all{
+.desing-all {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--blu-color);
+  background-color: var(--light-white);
+  cursor: pointer;
   padding: 12px 24px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    transition: color var(--transition),background-color var(--transition),border-color var(--transition),box-shadow var(--transition);
 }
+
+.desing-all:hover {
+  color: #FFFFFF;
+  background-color: #404BBF;
+}
+
+.desing-all:focus {
+  color: #FFFFFF;
+  background-color: #404BBF;
+}
+
 .desing-all:hover{
   border: 1px solid transparent;
   box-shadow:0px 3px 1px rgba(0, 0, 0, 0.1),
@@ -501,23 +521,8 @@ color: var(--dark-blu);
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-.desing-all{font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color:var(--blu-color);
-  background-color:var(--light-white);
-  cursor: pointer;
-}
-.desing-all:hover{
-  color: #FFFFFF;
-  background-color: #404BBF;
-}
-.desing-all:focus{
-  color:  #FFFFFF;
-  background-color: #404BBF;
-}
+
+
 .card-name{
   font-weight: 500;
   font-size: 20px;
