@@ -96,6 +96,7 @@ letter-spacing: 0.02em;
 color: var(--background-color);
 padding-top: 24px;
 padding-bottom: 24px;
+position: relative;
 }
 
 .list-b{
