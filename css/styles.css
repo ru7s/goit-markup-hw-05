@@ -372,6 +372,7 @@ fill: var(--light-white);
 position: relative;
 overflow: hidden;
  }
+
  .overlay{
   position: absolute;
   top: 0;
@@ -389,7 +390,7 @@ overflow: hidden;
  
 .portfolio-link:hover.overlay,
 .portfolio-link:focus.overlay{
-  transform:translateY(0%);
+  transform: translate(0,0);
 }
  
 
