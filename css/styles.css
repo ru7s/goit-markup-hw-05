@@ -389,7 +389,7 @@ overflow: hidden;
  
 .portfolio-link:hover.overlay,
 .portfolio-link:focus.overlay{
-  transform: translate(0,0);
+  transform:translateY(0%);
 }
  
 
