@@ -383,6 +383,8 @@ overflow: hidden;
   width: 100%;
   transform: translateY(100%);
   transition: var(--transition);
+  color: var(--light-white);
+  background-color: var(--blu-color);
  }
 
 .portfolio-link{
