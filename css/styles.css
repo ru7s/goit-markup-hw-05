@@ -382,7 +382,7 @@ overflow: hidden;
   padding: 40px 32px;
   height: 100%;
   width: 100%;
-  transform: translateY(100%);
+  transform: translateY(0,100%);
   transition:transform var(--transition);
   color: var(--light-white);
   background-color:var(--blu-color);
