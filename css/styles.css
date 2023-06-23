@@ -388,8 +388,8 @@ overflow: hidden;
   background-color:var(--blu-color);
  }
  
-.portfolio-link:hover.overlay,
-.portfolio-link:focus.overlay{
+.portfolio-link:hover.swap-text,
+.portfolio-link:focus.swap-text{
   transform: translate(0,0);
 }
  
