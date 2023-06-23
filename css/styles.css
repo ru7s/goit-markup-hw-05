@@ -386,6 +386,12 @@ overflow: hidden;
   color: var(--light-white);
   background-color:var(--blu-color);
  }
+ 
+.portfolio-link:hover.overlay,
+.portfolio-link:focus.overlay{
+  transform: translate(0,0);
+}
+ 
 
 .portfolio-link{
   display: block;
