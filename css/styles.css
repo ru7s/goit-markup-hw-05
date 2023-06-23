@@ -368,6 +368,22 @@ fill: var(--light-white);
 }
 
  /*--portfolio--*/
+ .overlay-container{
+position: relative;
+overflow: hidden;
+ }
+ .overlay{
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 40px 32px;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: var(--transition);
+ }
 
 .portfolio-link{
   display: block;
