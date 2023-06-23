@@ -368,12 +368,12 @@ fill: var(--light-white);
 }
 
  /*--portfolio--*/
- .overlay-container{
+ .swap-container{
 position: relative;
 overflow: hidden;
  }
 
- .overlay{
+ .swap-text{
   position: absolute;
   top: 0;
   font-size: 16px;
