@@ -382,7 +382,7 @@ overflow: hidden;
   padding: 40px 32px;
   height: 100%;
   width: 100%;
-  transform: translateY(0,100%);
+  transform: translateY(100%);
   transition:transform var(--transition);
   color: var(--light-white);
   background-color:var(--blu-color);
@@ -397,8 +397,8 @@ overflow: hidden;
       0px 1px 1px rgba(46, 47, 66, 0.16),
       0px 2px 1px rgba(46, 47, 66, 0.08);    
 }
-.portfolio-link:hover.swap-text,
-.portfolio-link:focus.swap-text{
+.portfolio-link:hover .swap-text,
+.portfolio-link:focus .swap-text{
   transform:translateY(0) ;
 }
 
