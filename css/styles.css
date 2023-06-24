@@ -101,6 +101,9 @@ padding: 24px 0;
 position: relative;
 transition: color var(--transition);
 }
+.list-a.current{
+  color: #404bbf;
+}
 
 
 .list-a::after{
